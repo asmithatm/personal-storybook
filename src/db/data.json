@@ -50,31 +50,31 @@
         "id": "stat-1",
         "icon": "Calendar",
         "label": "Age",
-        "value": "27 Summers (Born 2000)"
+        "value": "26, Born March 2000"
       },
       {
         "id": "stat-2",
         "icon": "MapPin",
         "label": "Location",
-        "value": "Karnataka Roots, Bangalore Based"
+        "value": "Residing in Bengaluru"
       },
       {
         "id": "stat-3",
         "icon": "Briefcase",
         "label": "Profession",
-        "value": "Senior Software Engineer"
+        "value": "Software Developer"
       },
       {
         "id": "stat-4",
         "icon": "GraduationCap",
         "label": "Education",
-        "value": "B.Tech in Computer Science"
+        "value": "B.E in Computer Science"
       },
       {
         "id": "stat-5",
         "icon": "Sparkles",
         "label": "Community",
-        "value": "Spiritually Curious"
+        "value": "Smartha Brahmin"
       },
       {
         "id": "stat-6",
@@ -123,8 +123,8 @@
         "shortDesc": "The story begins here.",
         "longDesc": "Born in Dharwad, where the first page of my journey was quietly written.",
         "bulletDesc": [
-          "Warm native sunrises",
-          "Hindustani classical roots"
+          "Opening my eyes to the world",
+          "Warmth of Ajja Ajji"
         ]
       },
       {
@@ -136,8 +136,8 @@
         "longDesc": "School days at DAV Public School. Filled with growing school-day curiosity, exploring the heritage lanes, and nurturing many of my earliest beautiful memories.",
         "bulletDesc": [
           "DAV Public School",
-          "Palace lanterns reflection",
-          "Mysore jasmine essence"
+          "Bachpana",
+          "Childlike Innocence"
         ]
       },
       {
@@ -163,13 +163,13 @@
         "bulletDesc": [
           "Mercedes Benz R&D India",
           "Independence & Career",
-          "Cozy city cafes & coffee"
+          "Safe Aesthetic Rented Space"
         ]
       }
     ]
   },
   "layer3": {
-    "title": "The Everyday Me",
+    "title": "My Interests",
     "subtitle": "Creativity & Moving with Intent",
     "caption": "Layer 3: Little Things",
     "creativeProjects": [
@@ -207,7 +207,7 @@
         "id": "cr-6",
         "title": "Trekking",
         "description": "Connecting with mountains, exploring new trails, and finding peace in nature's quiet vastness.",
-        "imageUrl": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=800"
+        "imageUrl": "https://drive.google.com/file/d/1nQkeFVrh3mVtrFJqY8KTKPtMGvN1gFQp/view?usp=sharing"
       }
     ]
   },
