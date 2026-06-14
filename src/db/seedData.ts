@@ -128,27 +128,32 @@ export const initialProfileData: ProfileData = {
         title: "Sitar & Silence",
         description: "Learning classical Indian Sitar has taught me that the spaces between notes — the silence — are as critical as the strums themselves.",
         imageUrl: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&q=80&w=800"
+      },{
+        id: "cr-2",
+        title: "Bharatanatyam",
+        description: "A disciplined container of storytelling, rhythm, and devotion. Moving my body to complex rhythms brings a deep emotional grounding.",
+        imageUrl: "https://images.unsplash.com/photo-1599818815152-f584e0cca9b7?auto=format&fit=crop&q=80&w=800"
       },
       {
-        id: "cr-2",
+        id: "cr-3",
         title: "Painting & Sketches",
         description: "An escape to colors. Creating abstract oils and traditional Tanjore art allows my analytical mind to take a back seat.",
         imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=800"
       },
       {
-        id: "cr-3",
+        id: "cr-4",
         title: "Curious Reader",
         description: "Finding solace in classic literature, psychology journals, and spiritual commentaries that challenge my daily perspective.",
         imageUrl: "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&q=80&w=800"
       },
       {
-        id: "cr-4",
+        id: "cr-5",
         title: "Weekend Badminton",
         description: "Fast-paced agility and cheerful sweat on Saturday mornings with a close-knit circle of childhood friends.",
         imageUrl: "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&q=80&w=800"
       },
       {
-        id: "cr-5",
+        id: "cr-6",
         title: "Trekking",
         description: "Connecting with mountains, exploring new trails, and finding peace in nature's quiet vastness.",
         imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=800"
