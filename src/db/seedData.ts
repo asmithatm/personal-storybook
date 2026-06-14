@@ -1,4 +1,5 @@
 import { ProfileData } from '../types.js';
+import { sitarPhoto } from './sitar_pic.ts';
 
 export const initialProfileData: ProfileData = {
   email: "asmithatm.mbrdi@gmail.com",
@@ -127,7 +128,7 @@ export const initialProfileData: ProfileData = {
         id: "cr-1",
         title: "Sitar & Silence",
         description: "Learning classical Indian Sitar has taught me that the spaces between notes — the silence — are as critical as the strums themselves.",
-        imageUrl: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&q=80&w=800"
+        imageUrl: sitarPhoto
       },
       {
         id: "cr-2",
