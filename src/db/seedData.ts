@@ -23,7 +23,7 @@ export const initialProfileData: ProfileData = {
       { id: "stat-2", icon: "MapPin", label: "Location", value: "Residing in Bengaluru" },
       { id: "stat-3", icon: "Briefcase", label: "Profession", value: "Software Developer" },
       { id: "stat-4", icon: "GraduationCap", label: "Education", value: "B.E in Computer Science" },
-      { id: "stat-5", icon: "Sparkles", label: "Community", value: "Smartha Brahmin },
+      { id: "stat-5", icon: "Sparkles", label: "Community", value: "Smartha Brahmin" },
       { id: "stat-6", icon: "Leaf", label: "Lifestyle", value: "Vegetarian & Teetotaler" },
       { id: "stat-7", icon: "Ruler", label: "Height", value: "4'10\" (147 cm)" },
       { id: "stat-8", icon: "Heart", label: "Weight", value: "45 kgs" }
