@@ -559,12 +559,14 @@ const PORT = Number(process.env.PORT) || 3000;
     });
     app.use(vite.middlewares);
   } else {
-    // Serve static files in production
-    const distPath = path.join(_dirname, 'dist');
+  const distPath =
+    process.env.NODE_ENV === 'production'
+      ? _dirname
+      : path.join(_dirname, 'dist');
     app.use(express.static(distPath));
     app.get('*', (req, res) => {
-      res.sendFile(path.join(distPath, 'index.html'));
-    });
+    res.sendFile(path.join(distPath, 'index.html'));
+  });
   }
 
   app.listen(PORT, '0.0.0.0', () => {
