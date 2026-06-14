@@ -19,14 +19,14 @@ export const initialProfileData: ProfileData = {
     description: "The world usually begins with facts. Here is the outline of my professional journey, upbringing roots, and daily stats.",
     caption: "Layer 1: Outward Identities",
     stats: [
-      { id: "stat-1", icon: "Calendar", label: "Age", value: "27 Summers (Born 1999)" },
-      { id: "stat-2", icon: "MapPin", label: "Location", value: "Karnataka Roots, Bangalore Based" },
-      { id: "stat-3", icon: "Briefcase", label: "Profession", value: "Senior Software Engineer" },
-      { id: "stat-4", icon: "GraduationCap", label: "Education", value: "B.Tech in Computer Science" },
-      { id: "stat-5", icon: "Sparkles", label: "Community", value: "Spiritually Curious" },
+      { id: "stat-1", icon: "Calendar", label: "Age", value: "26, Born March 2000" },
+      { id: "stat-2", icon: "MapPin", label: "Location", value: "Residing in Bengaluru" },
+      { id: "stat-3", icon: "Briefcase", label: "Profession", value: "Software Developer" },
+      { id: "stat-4", icon: "GraduationCap", label: "Education", value: "B.E in Computer Science" },
+      { id: "stat-5", icon: "Sparkles", label: "Community", value: "Smartha Brahmin },
       { id: "stat-6", icon: "Leaf", label: "Lifestyle", value: "Vegetarian & Teetotaler" },
-      { id: "stat-7", icon: "Ruler", label: "Height", value: "5'4\" (163 cm)" },
-      { id: "stat-8", icon: "Heart", label: "Weight", value: "45kgs" }
+      { id: "stat-7", icon: "Ruler", label: "Height", value: "4'10\" (147 cm)" },
+      { id: "stat-8", icon: "Heart", label: "Weight", value: "45 kgs" }
     ],
     education: "B.Tech in Computer Science from a top-tier institution in Karnataka, with a deep appreciation for logical problem-solving and systems design.",
     career: "Working as a Senior Frontend/Full Stack Engineer, crafting intuitive human experiences at a modern technology firm. Balancing analytical rigor with creative expression.",
@@ -63,13 +63,13 @@ export const initialProfileData: ProfileData = {
     parentsNoteTitle: "Parents",
     parentsNoteItems: [
       "Father: Tax Consultant",
-      "Mother: Accounts Manager in Software Industry"
+      "Mother: Accounts Manager in Software Company"
     ],
     lifestyleNoteTitle: "Lifestyle",
     lifestyleNoteItems: [
       "Vegetarian",
       "Family-Oriented",
-      "Simple Living"
+      "Modern Yet Rooted In Traditions"
     ],
     homeBaseNoteTitle: "Home Base",
     homeBaseNoteItems: [
@@ -86,7 +86,7 @@ export const initialProfileData: ProfileData = {
         emoji: "🌱",
         shortDesc: "The story begins here.",
         longDesc: "Born in Dharwad, where the first page of my journey was quietly written.",
-        bulletDesc: ["Warm native sunrises", "Hindustani classical roots"]
+        bulletDesc: ["Opening my eyes to the world", "Warmth of Ajja Ajji"]
       },
       {
         id: "mysuru-childhood",
@@ -95,7 +95,7 @@ export const initialProfileData: ProfileData = {
         emoji: "🌸",
         shortDesc: "The city of my childhood years.",
         longDesc: "School days at DAV Public School. Filled with growing school-day curiosity, exploring the heritage lanes, and nurturing many of my earliest beautiful memories.",
-        bulletDesc: ["DAV Public School", "Palace lanterns reflection", "Mysore jasmine essence"]
+        bulletDesc: ["DAV Public School", "Bachpana", "Childlike Innocence"]
       },
       {
         id: "dharwad-higher",
@@ -113,13 +113,13 @@ export const initialProfileData: ProfileData = {
         emoji: "💻",
         shortDesc: "The current chapter.",
         longDesc: "Working at Mercedes Benz Research & Development India. A phase characterized by professional work, independent growth, and everything still beautiful and unfolding.",
-        bulletDesc: ["Mercedes Benz R&D India", "Independence & Career", "Cozy city cafes & coffee"]
+        bulletDesc: ["Mercedes Benz R&D India", "Independence & Career", "Safe Aesthetic Rented Space"]
       }
     ]
   },
 
   layer3: {
-    title: "The Everyday Me",
+    title: "My Interests",
     subtitle: "Creativity & Moving with Intent",
     caption: "Layer 3: Little Things",
     creativeProjects: [
@@ -131,30 +131,24 @@ export const initialProfileData: ProfileData = {
       },
       {
         id: "cr-2",
-        title: "Bharatanatyam",
-        description: "A disciplined container of storytelling, rhythm, and devotion. Moving my body to complex rhythms brings a deep emotional grounding.",
-        imageUrl: "https://images.unsplash.com/photo-1599818815152-f584e0cca9b7?auto=format&fit=crop&q=80&w=800"
-      },
-      {
-        id: "cr-3",
         title: "Painting & Sketches",
         description: "An escape to colors. Creating abstract oils and traditional Tanjore art allows my analytical mind to take a back seat.",
         imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=800"
       },
       {
-        id: "cr-4",
+        id: "cr-3",
         title: "Curious Reader",
         description: "Finding solace in classic literature, psychology journals, and spiritual commentaries that challenge my daily perspective.",
         imageUrl: "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&q=80&w=800"
       },
       {
-        id: "cr-5",
+        id: "cr-4",
         title: "Weekend Badminton",
         description: "Fast-paced agility and cheerful sweat on Saturday mornings with a close-knit circle of childhood friends.",
         imageUrl: "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&q=80&w=800"
       },
       {
-        id: "cr-6",
+        id: "cr-5",
         title: "Trekking",
         description: "Connecting with mountains, exploring new trails, and finding peace in nature's quiet vastness.",
         imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=800"
