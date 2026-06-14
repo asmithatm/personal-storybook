@@ -1,0 +1,6 @@
+{
+  "name": "Personal Storybook",
+  "description": "An elegant, interactive personal profile website built around the poetic metaphor of peeling onion layers—revealing facts, values, and dreams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
