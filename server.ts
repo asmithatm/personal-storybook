@@ -6,6 +6,7 @@ import { createServer as createViteServer } from 'vite';
 import { initialProfileData } from './src/db/seedData.ts';
 import crypto from 'crypto';
 import dns from 'dns';
+import { connectDB } from "./src/db/mongodb";
 
 const _filename = typeof __filename !== 'undefined'
   ? __filename
@@ -23,6 +24,7 @@ if (!fs.existsSync(DB_DIR)) {
   fs.mkdirSync(DB_DIR, { recursive: true });
 }
 
+await connectDB();
 // Load or seed profile data
 let currentProfileData = initialProfileData;
 
